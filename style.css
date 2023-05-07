@@ -7,3 +7,18 @@
     color: back;
     background-color: grey;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+ th, td {
+    border: 1px solid black;
+    /* background-color: lightgray; */
+    padding: 5px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+}
+
+
+
