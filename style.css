@@ -3,7 +3,7 @@ h1, article h2 {
     text-shadow: 5px 5px 10px yellowgreen;
 }
 
-nav ul {
+nav > ul {
     display: flex;
 }
 
@@ -14,11 +14,25 @@ nav ul li {
 }
 
 nav ul li:hover{
+    padding: 5px;
     background: lightgreen;
 }
 
 nav ul li a {
     text-decoration: none;
+}
+
+/* dropdown menu */
+
+nav ul li .dropdown {
+    display: none;
+    position: absolute;
+    padding-left: 0;
+    background-color: bisque;
+}
+
+nav ul li:hover > .dropdown {
+    display: block;
 }
 
 
