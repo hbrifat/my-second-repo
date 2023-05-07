@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,84 @@
     <link rel="stylesheet" href="style.css">
     <title>My Website Title</title>
 </head>
-<body>
-    <div class="main">
-        <h1>Website main heading</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima provident at nisi quae reiciendis cupiditate saepe quos expedita, dolor vero voluptatum perferendis corporis, doloribus modi, odit officiis cumque inventore dicta est impedit perspiciatis incidunt deserunt error fugit? Inventore corrupti maxime iure sapiente adipisci pariatur quas, omnis cupiditate veritatis, cumque quos. Aut beatae odit blanditiis iste repellendus aliquam voluptatibus quam facere non cum, necessitatibus ab minima odio! Facere illum odit doloremque autem modi nihil cumque, quod quis dolor deleniti velit ab quaerat sint nemo minus illo fugiat dignissimos necessitatibus eius quisquam corporis voluptatibus. Sed labore nostrum eligendi quas repellat iusto magni.</p>
-    </div>
 
-    <div class="secondary">
-        <h2>Website main heading</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima provident at nisi quae reiciendis cupiditate saepe quos expedita, dolor vero voluptatum perferendis corporis, doloribus modi, odit officiis cumque inventore dicta est impedit perspiciatis incidunt deserunt error fugit? Inventore corrupti maxime iure sapiente adipisci pariatur quas, omnis cupiditate veritatis, cumque quos. Aut beatae odit blanditiis iste repellendus aliquam voluptatibus quam facere non cum, necessitatibus ab minima odio! Facere illum odit doloremque autem modi nihil cumque, quod quis dolor deleniti velit ab quaerat sint nemo minus illo fugiat dignissimos necessitatibus eius quisquam corporis voluptatibus. Sed labore nostrum eligendi quas repellat iusto magni.</p>
-    </div>
+<body>
+    <header>
+        <h1>Welcome To My Website!</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, necessitatibus.</p>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Portfolio</li>
+                <li>Contact</li>
+                <li>Others</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>My Blog Post</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aliquam cupiditate facere quae iure
+                    modi minima similique unde est nemo ex laborum, eligendi dolores sed, itaque id quas quod fuga amet
+                    at architecto. Earum minus dolorum magni qui voluptatum autem ratione alias suscipit neque veniam
+                    doloribus commodi, atque, distinctio nam?</p>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam et quo illo deserunt pariatur
+                    provident eveniet, praesentium nesciunt excepturi eaque amet natus quasi. Similique quibusdam
+                    numquam natus. Reiciendis exercitationem debitis, vel hic quasi adipisci corporis quos ea rem autem,
+                    ipsa suscipit error. Doloremque culpa labore porro esse autem alias nostrum adipisci ratione, eius
+                    possimus non praesentium, voluptate veritatis, neque recusandae.</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>My Blog Post</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aliquam cupiditate facere quae iure
+                    modi minima similique unde est nemo ex laborum, eligendi dolores sed, itaque id quas quod fuga amet
+                    at architecto. Earum minus dolorum magni qui voluptatum autem ratione alias suscipit neque veniam
+                    doloribus commodi, atque, distinctio nam?</p>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam et quo illo deserunt pariatur
+                    provident eveniet, praesentium nesciunt excepturi eaque amet natus quasi. Similique quibusdam
+                    numquam natus. Reiciendis exercitationem debitis, vel hic quasi adipisci corporis quos ea rem autem,
+                    ipsa suscipit error. Doloremque culpa labore porro esse autem alias nostrum adipisci ratione, eius
+                    possimus non praesentium, voluptate veritatis, neque recusandae.</p>
+            </article>
+        </section>
+
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your name here"> <br> <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Your email here"> <br> <br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Password should contain capital letters, small letters & numbers"> <br> <br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="number" id="phone" placeholder="Your phone number">
+
+            <fieldset>
+                <legend>
+                    <label for="choice">Your Choices: (Any one)</label>
+                </legend>
+                    <input type="radio" name="choice" value="Mobile"> Mobile
+                    <input type="radio" name="choice" value="Laptop"> Laptop
+                    <input type="radio" name="choice" value="PC"> PC
+            </fieldset>
+
+            <textarea name="message" id="message" cols="60" rows="5"></textarea> <br> <br>
+
+            <input type="reset" value="Reset">
+            <input type="button" value="Submit">
+        </form>
+    </main>
+
+
+    <footer><small>Copyright 2023.</small></footer>
 </body>
+
 </html>
